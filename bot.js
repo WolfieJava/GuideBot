@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 // All things with Client or client will not work! Must be bot.
+const prefix = "!";
+// Defines the prefix
 
 bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.username}`)
@@ -8,13 +10,16 @@ bot.on('ready', () => {
 });
 
 bot.on('message', (message) => {
-    if (message.content === "ping") {
+    if (message.content.startsWith(prefix + 'ping')) {
         message.reply('Pong!');
+    } else
+    // Make another Statement
+    if (message.content.startsWith(prefix + 'feed')) {
+        message.reply(`C'mon give me Some FOOD! :shallow_pan_of_food:`)
     }
 });
-// If you message ping, the bot will reply Pong!
+// Now you need to use the Prefix
 
 
 // Logs in
-bot.login(Your Bot Token!);
-// Eg. bot.login('MFDNFEFEFEJFR534T34ITN43TP34304.323295')
+bot.login('Your Bot Token')
