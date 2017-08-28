@@ -1,5 +1,5 @@
 # Welcome
-**Welcome to the Third branch for the bot GuideBot! This branch is now using Moderation Commands and Embeds!**
+**Welcome to the Third branch for the bot GuideBot! This branch is now using Eval and Shutdown Command!**
 
 ## Installation
 
