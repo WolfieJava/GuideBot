@@ -1,5 +1,5 @@
 # Welcome
-**Welcome to the Second branch for the bot GuideBot! This branch is now using Prefixes and more commands by using `else`!**
+**Welcome to the Fourth branch for the bot GuideBot! This branch is now using Moderation commands and __EMBED__!**
 
 ## Installation
 
