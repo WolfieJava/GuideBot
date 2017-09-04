@@ -18,3 +18,5 @@ bot.on('message', (message) => {
 // Logs in
 bot.login(Your Bot Token!);
 // Eg. bot.login('MFDNFEFEFEJFR534T34ITN43TP34304.323295')
+
+wat is dis??!?!?!
